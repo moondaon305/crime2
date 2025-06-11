@@ -85,7 +85,7 @@ def load_seoul_geojson_from_url(url):
 
 # !!! 중요: 여기에 Gist에서 복사한 Raw URL을 붙여넣으세요! !!!
 # 예시: "https://gist.githubusercontent.com/사용자이름/고유ID/raw/해시/seoul_geojson.json"
-GEOJSON_URL = "여기에 당신의 Gist Raw URL을 붙여넣으세요" # <-- 이 부분을 반드시 수정해야 합니다.
+GEOJSON_URL = "https://raw.githubusercontent.com/moondaon305/crime2/refs/heads/main/seoul_geojson.json" # <-- 이 부분을 반드시 수정해야 합니다.
 
 seoul_geojson = load_seoul_geojson_from_url(GEOJSON_URL)
 
